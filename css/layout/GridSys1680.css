@@ -1,0 +1,250 @@
+@media only screen and (min-width: 1662px) and (max-width: 1901px) {
+
+    /*
+    1584px grid system ~ Core CSS.
+    22 Columns ~ Margin left: 12px ~ Margin right: 12px
+
+    Based on the 960.gs grid system - http://960.gs/
+    by Nathan Smith
+
+    Created by the Grid System Generator - v1.04
+    Learn more ~ http://www.gridsystemgenerator.com/
+    */
+
+    /*
+    Forces backgrounds to span full width,
+    even if there is horizontal scrolling.
+    Increase this if your layout is wider.
+
+    Note: IE6 works fine without this fix.
+    */
+    body {
+        min-width: 960px;
+    }
+
+    /* =Containers
+    --------------------------------------------------------------------------------*/
+    .container
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1584px;
+        background-color:#FFFFFF;
+        background-image: url("../../img/1584_22_12_12.png");
+        background-repeat: repeat-y;
+    }
+
+    /* =Grid >> Global
+    --------------------------------------------------------------------------------*/
+    .grid_1,
+    .grid_2,
+    .grid_3,
+    .grid_4,
+    .grid_5,
+    .grid_6,
+    .grid_7,
+    .grid_8,
+    .grid_9,
+    .grid_10,
+    .grid_11,
+    .grid_12,
+    .grid_13,
+    .grid_14,
+    .grid_15,
+    .grid_16,
+    .grid_17,
+    .grid_18,
+    .grid_19,
+    .grid_20,
+    .grid_21,
+    .grid_22 {
+        display: inline;
+        float: left;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .push_1, .pull_1,
+    .push_2, .pull_2,
+    .push_3, .pull_3,
+    .push_4, .pull_4,
+    .push_5, .pull_5,
+    .push_6, .pull_6,
+    .push_7, .pull_7,
+    .push_8, .pull_8,
+    .push_9, .pull_9,
+    .push_10, .pull_10,
+    .push_11, .pull_11,
+    .push_12, .pull_12,
+    .push_13, .pull_13,
+    .push_14, .pull_14,
+    .push_15, .pull_15,
+    .push_16, .pull_16,
+    .push_17, .pull_17,
+    .push_18, .pull_18,
+    .push_19, .pull_19,
+    .push_20, .pull_20,
+    .push_21, .pull_21 {
+        position: relative;
+    }
+
+    /* =Grid >> Children (Alpha ~ First, Omega ~ Last)
+    --------------------------------------------------------------------------------*/
+    .alpha {margin-left: 0;}
+    .omega {margin-right: 0;}
+
+    /* =Grid >> 22 Columns
+    --------------------------------------------------------------------------------*/
+    .container .grid_1 {width: 48px;}
+    .container .grid_2 {width: 120px;}
+    .container .grid_3 {width: 192px;}
+    .container .grid_4 {width: 264px;}
+    .container .grid_5 {width: 336px;}
+    .container .grid_6 {width: 408px;}
+    .container .grid_7 {width: 480px;}
+    .container .grid_8 {width: 552px;}
+    .container .grid_9 {width: 624px;}
+    .container .grid_10 {width: 696px;}
+    .container .grid_11 {width: 768px;}
+    .container .grid_12 {width: 840px;}
+    .container .grid_13 {width: 912px;}
+    .container .grid_14 {width: 984px;}
+    .container .grid_15 {width: 1056px;}
+    .container .grid_16 {width: 1128px;}
+    .container .grid_17 {width: 1200px;}
+    .container .grid_18 {width: 1272px;}
+    .container .grid_19 {width: 1344px;}
+    .container .grid_20 {width: 1416px;}
+    .container .grid_21 {width: 1488px;}
+    .container .grid_22 {width: 1560px;}
+
+    /* =Prefix Extra Space >> 22 Columns
+    --------------------------------------------------------------------------------*/
+    .container .prefix_1 {padding-left: 72px;}
+    .container .prefix_2 {padding-left: 144px;}
+    .container .prefix_3 {padding-left: 216px;}
+    .container .prefix_4 {padding-left: 288px;}
+    .container .prefix_5 {padding-left: 360px;}
+    .container .prefix_6 {padding-left: 432px;}
+    .container .prefix_7 {padding-left: 504px;}
+    .container .prefix_8 {padding-left: 576px;}
+    .container .prefix_9 {padding-left: 648px;}
+    .container .prefix_10 {padding-left: 720px;}
+    .container .prefix_11 {padding-left: 792px;}
+    .container .prefix_12 {padding-left: 864px;}
+    .container .prefix_13 {padding-left: 936px;}
+    .container .prefix_14 {padding-left: 1008px;}
+    .container .prefix_15 {padding-left: 1080px;}
+    .container .prefix_16 {padding-left: 1152px;}
+    .container .prefix_17 {padding-left: 1224px;}
+    .container .prefix_18 {padding-left: 1296px;}
+    .container .prefix_19 {padding-left: 1368px;}
+    .container .prefix_20 {padding-left: 1440px;}
+    .container .prefix_21 {padding-left: 1512px;}
+
+    /* =Suffix Extra Space >> 22 Columns
+    --------------------------------------------------------------------------------*/
+    .container .suffix_1 {padding-right: 72px;}
+    .container .suffix_2 {padding-right: 144px;}
+    .container .suffix_3 {padding-right: 216px;}
+    .container .suffix_4 {padding-right: 288px;}
+    .container .suffix_5 {padding-right: 360px;}
+    .container .suffix_6 {padding-right: 432px;}
+    .container .suffix_7 {padding-right: 504px;}
+    .container .suffix_8 {padding-right: 576px;}
+    .container .suffix_9 {padding-right: 648px;}
+    .container .suffix_10 {padding-right: 720px;}
+    .container .suffix_11 {padding-right: 792px;}
+    .container .suffix_12 {padding-right: 864px;}
+    .container .suffix_13 {padding-right: 936px;}
+    .container .suffix_14 {padding-right: 1008px;}
+    .container .suffix_15 {padding-right: 1080px;}
+    .container .suffix_16 {padding-right: 1152px;}
+    .container .suffix_17 {padding-right: 1224px;}
+    .container .suffix_18 {padding-right: 1296px;}
+    .container .suffix_19 {padding-right: 1368px;}
+    .container .suffix_20 {padding-right: 1440px;}
+    .container .suffix_21 {padding-right: 1512px;}
+
+    /* `Push Space >> 22 Columns
+    --------------------------------------------------------------------------------*/
+    .container .push_1 {left: 72px;}
+    .container .push_2 {left: 144px;}
+    .container .push_3 {left: 216px;}
+    .container .push_4 {left: 288px;}
+    .container .push_5 {left: 360px;}
+    .container .push_6 {left: 432px;}
+    .container .push_7 {left: 504px;}
+    .container .push_8 {left: 576px;}
+    .container .push_9 {left: 648px;}
+    .container .push_10 {left: 720px;}
+    .container .push_11 {left: 792px;}
+    .container .push_12 {left: 864px;}
+    .container .push_13 {left: 936px;}
+    .container .push_14 {left: 1008px;}
+    .container .push_15 {left: 1080px;}
+    .container .push_16 {left: 1152px;}
+    .container .push_17 {left: 1224px;}
+    .container .push_18 {left: 1296px;}
+    .container .push_19 {left: 1368px;}
+    .container .push_20 {left: 1440px;}
+    .container .push_21 {left: 1512px;}
+
+    /* `Pull Space >> 22 Columns
+    --------------------------------------------------------------------------------*/
+    .container .pull_1 {left: -72px;}
+    .container .pull_2 {left: -144px;}
+    .container .pull_3 {left: -216px;}
+    .container .pull_4 {left: -288px;}
+    .container .pull_5 {left: -360px;}
+    .container .pull_6 {left: -432px;}
+    .container .pull_7 {left: -504px;}
+    .container .pull_8 {left: -576px;}
+    .container .pull_9 {left: -648px;}
+    .container .pull_10 {left: -720px;}
+    .container .pull_11 {left: -792px;}
+    .container .pull_12 {left: -864px;}
+    .container .pull_13 {left: -936px;}
+    .container .pull_14 {left: -1008px;}
+    .container .pull_15 {left: -1080px;}
+    .container .pull_16 {left: -1152px;}
+    .container .pull_17 {left: -1224px;}
+    .container .pull_18 {left: -1296px;}
+    .container .pull_19 {left: -1368px;}
+    .container .pull_20 {left: -1440px;}
+    .container .pull_21 {left: -1512px;}
+
+    /* `Clear Floated Elements
+    ----------------------------------------------------------------------------------------------------*/
+    /* http://sonspring.com/journal/clearing-floats */
+    .clear {
+        clear: both;
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    /* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+    .clearfix:before,
+    .clearfix:after {
+        content: "\0020";
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    .clearfix:after {
+        clear: both;
+    }
+    /*
+    The following zoom:1 rule is specifically for IE6 + IE7.
+    Move to separate stylesheet if invalid CSS is a problem.
+    */
+    .clearfix {
+        zoom: 1;
+    }
+
+}

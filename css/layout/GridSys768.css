@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1005px) {
+
+    body {
+        min-width: 768px;
+    }
+
+    /* =Containers
+    --------------------------------------------------------------------------------*/
+    .container
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
+        background-color:#FFFFFF;
+        background-image: url("../../img/720_10_12_12.png");
+        background-repeat: repeat-y;
+    }
+
+    /* =Grid >> Global
+    --------------------------------------------------------------------------------*/
+    .grid_1,
+    .grid_2,
+    .grid_3,
+    .grid_4,
+    .grid_5,
+    .grid_6,
+    .grid_7,
+    .grid_8,
+    .grid_9,
+    .grid_10 {
+        display: inline;
+        float: left;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .push_1, .pull_1,
+    .push_2, .pull_2,
+    .push_3, .pull_3,
+    .push_4, .pull_4,
+    .push_5, .pull_5,
+    .push_6, .pull_6,
+    .push_7, .pull_7,
+    .push_8, .pull_8,
+    .push_9, .pull_9 {
+        position: relative;
+    }
+
+    /* =Grid >> Children (Alpha ~ First, Omega ~ Last)
+    --------------------------------------------------------------------------------*/
+    .alpha {margin-left: 0;}
+    .omega {margin-right: 0;}
+
+    /* =Grid >> 10 Columns
+    --------------------------------------------------------------------------------*/
+    .container .grid_1 {width: 48px;}
+    .container .grid_2 {width: 120px;}
+    .container .grid_3 {width: 192px;}
+    .container .grid_4 {width: 264px;}
+    .container .grid_5 {width: 336px;}
+    .container .grid_6 {width: 408px;}
+    .container .grid_7 {width: 480px;}
+    .container .grid_8 {width: 552px;}
+    .container .grid_9 {width: 624px;}
+    .container .grid_10 {width: 696px;}
+
+    /* =Prefix Extra Space >> 10 Columns
+    --------------------------------------------------------------------------------*/
+    .container .prefix_1 {padding-left: 72px;}
+    .container .prefix_2 {padding-left: 144px;}
+    .container .prefix_3 {padding-left: 216px;}
+    .container .prefix_4 {padding-left: 288px;}
+    .container .prefix_5 {padding-left: 360px;}
+    .container .prefix_6 {padding-left: 432px;}
+    .container .prefix_7 {padding-left: 504px;}
+    .container .prefix_8 {padding-left: 576px;}
+    .container .prefix_9 {padding-left: 648px;}
+
+    /* =Suffix Extra Space >> 10 Columns
+    --------------------------------------------------------------------------------*/
+    .container .suffix_1 {padding-right: 72px;}
+    .container .suffix_2 {padding-right: 144px;}
+    .container .suffix_3 {padding-right: 216px;}
+    .container .suffix_4 {padding-right: 288px;}
+    .container .suffix_5 {padding-right: 360px;}
+    .container .suffix_6 {padding-right: 432px;}
+    .container .suffix_7 {padding-right: 504px;}
+    .container .suffix_8 {padding-right: 576px;}
+    .container .suffix_9 {padding-right: 648px;}
+
+    /* `Push Space >> 10 Columns
+    --------------------------------------------------------------------------------*/
+    .container .push_1 {left: 72px;}
+    .container .push_2 {left: 144px;}
+    .container .push_3 {left: 216px;}
+    .container .push_4 {left: 288px;}
+    .container .push_5 {left: 360px;}
+    .container .push_6 {left: 432px;}
+    .container .push_7 {left: 504px;}
+    .container .push_8 {left: 576px;}
+    .container .push_9 {left: 648px;}
+
+    /* `Pull Space >> 10 Columns
+    --------------------------------------------------------------------------------*/
+    .container .pull_1 {left: -72px;}
+    .container .pull_2 {left: -144px;}
+    .container .pull_3 {left: -216px;}
+    .container .pull_4 {left: -288px;}
+    .container .pull_5 {left: -360px;}
+    .container .pull_6 {left: -432px;}
+    .container .pull_7 {left: -504px;}
+    .container .pull_8 {left: -576px;}
+    .container .pull_9 {left: -648px;}
+
+    /* `Clear Floated Elements
+    ----------------------------------------------------------------------------------------------------*/
+    /* http://sonspring.com/journal/clearing-floats */
+    .clear {
+        clear: both;
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    /* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+    .clearfix:before,
+    .clearfix:after {
+        content: "\0020";
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    .clearfix:after {
+        clear: both;
+    }
+    /*
+    The following zoom:1 rule is specifically for IE6 + IE7.
+    Move to separate stylesheet if invalid CSS is a problem.
+    */
+    .clearfix {
+        zoom: 1;
+    }
+
+}
